@@ -14,8 +14,8 @@
 	// Breakpoints.
 		breakpoints({
 			wide:      [ '1281px',  '1680px' ],
-			normal:    [ '981px',   '1280px' ],
-			narrow:    [ '841px',   '980px'  ],
+			normal:    [ '1169px',   '1280px' ],
+			narrow:    [ '841px',   '1168px'  ],
 			narrower:  [ '737px',   '840px'  ],
 			mobile:    [ null,      '736px'  ]
 		});
