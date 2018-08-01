@@ -1782,40 +1782,39 @@ input, select, textarea {
 		padding-top: 3em;
 	}
 
-/* Spectral Main */
+/* Rachel Main: About Rachel*/
 
-#spectralmain > header {
+#rachelmain > header {
+	background-attachment: scroll, scroll, scroll, fixed;
+	background-color: #645862;
+	background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/rhodie.JPG");
+	background-position: top left, top right, top left, bottom center;
+	background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+	background-size: 25em, 25em, auto, cover;
+	color: #fff;
 	padding: 10em 0 8em 0 ;
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-	background-attachment: fixed;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
 	text-align: center;
 }
 
-	#spectralmain > header h2 {
+	#rachelmain > header h2 {
 		font-size: 1.75em;
 		margin: 0 0 0.5em 0;
 	}
 
-	#spectralmain > header p {
+	#rachelmain > header p {
 		color: inherit;
 		letter-spacing: 0.225em;
 		text-transform: uppercase;
 		top: 0;
 	}
 
-		#spectralmain > header p a {
+		#rachelmain > header p a {
 			color: inherit;
 		}
 
 	@media screen and (max-width: 1680px) {
 
-		#spectralmain > header {
+		#rachelmain > header {
 			padding: 8em 0 6em 0 ;
 		}
 
@@ -1823,7 +1822,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 1280px) {
 
-		#spectralmain > header {
+		#rachelmain > header {
 			padding: 8em 3em 6em 3em ;
 		}
 
@@ -1831,7 +1830,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 1148px) {
 
-		#spectralmain > header {
+		#rachelmain > header {
 			padding: 8em 0em 6em 0em ;
 		}
 
@@ -1839,18 +1838,89 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
-		#spectralmain > header {
+		#rachelmain > header {
 			padding: 5em 3em 3em 3em ;
 		}
 
-			#spectralmain > header h2 {
+			#rachelmain > header h2 {
 				font-size: 1.25em;
 				margin: 0 0 1em 0;
 			}
 
 	}
 
-body.is-mobile #spectralmain > header {
+body.is-mobile #rachelmain > header {
+	background-attachment: scroll;
+}
+
+/* Work With Me Main*/
+
+#wwmmain > header {
+	background-attachment: scroll, scroll, scroll, fixed;
+	background-color: #645862;
+	background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/rhodie.JPG");
+	background-position: top left, top right, top left, bottom center;
+	background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+	background-size: 25em, 25em, auto, cover;
+	color: #fff;
+	padding: 10em 0 8em 0 ;
+	text-align: center;
+}
+
+	#wwmmain > header h2 {
+		font-size: 1.75em;
+		margin: 0 0 0.5em 0;
+	}
+
+	#wwmmain > header p {
+		color: inherit;
+		letter-spacing: 0.225em;
+		text-transform: uppercase;
+		top: 0;
+	}
+
+		#wwmmain > header p a {
+			color: inherit;
+		}
+
+	@media screen and (max-width: 1680px) {
+
+		#wwmmain > header {
+			padding: 8em 0 6em 0 ;
+		}
+
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		#wwmmain > header {
+			padding: 8em 3em 6em 3em ;
+		}
+
+	}
+
+	@media screen and (max-width: 1148px) {
+
+		#wwmmain > header {
+			padding: 8em 0em 6em 0em ;
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		#wwmmain > header {
+			padding: 5em 3em 3em 3em ;
+		}
+
+			#wwmmain > header h2 {
+				font-size: 1.25em;
+				margin: 0 0 1em 0;
+			}
+
+	}
+
+body.is-mobile #wwmmain > header {
 	background-attachment: scroll;
 }
 
