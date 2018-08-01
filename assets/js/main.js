@@ -1,7 +1,5 @@
 /*
-	Twenty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Cycle Insight
 */
 
 (function($) {
@@ -14,8 +12,8 @@
 	// Breakpoints.
 		breakpoints({
 			wide:      [ '1281px',  '1680px' ],
-			normal:    [ '1169px',   '1280px' ],
-			narrow:    [ '841px',   '1168px'  ],
+			normal:    [ '1149px',   '1280px' ],
+			narrow:    [ '841px',   '1148px'  ],
 			narrower:  [ '737px',   '840px'  ],
 			mobile:    [ null,      '736px'  ]
 		});

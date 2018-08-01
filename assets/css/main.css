@@ -2,9 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
 
 /*
-	Twenty by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
+	Cycle Insight
 */
 
 html, body, div, span, applet, object,
@@ -212,7 +210,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1168px) {
+		@media screen and (max-width: 1148px) {
 
 			.container {
 				width: 95%;
@@ -981,7 +979,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1168px) {
+		@media screen and (max-width: 1148px) {
 
 			.row {
 				display: flex;
@@ -1831,7 +1829,7 @@ input, select, textarea {
 
 	}
 
-	@media screen and (max-width: 1168px) {
+	@media screen and (max-width: 1148px) {
 
 		#spectralmain > header {
 			padding: 10em 3em 8em 3em ;
@@ -2883,7 +2881,7 @@ ul.package-desc {
 		display: none;
 	}
 
-	@media screen and (max-width: 1168px) {
+	@media screen and (max-width: 1148px) {
 
 		/* Basic */
 
