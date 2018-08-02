@@ -2804,6 +2804,24 @@ ul.package-desc {
 			margin-bottom: 2em;
 		}
 
+/* Secondary CTA */
+
+	#secondcta {
+		background-attachment: scroll, scroll, scroll, fixed;
+		background-color: #645862;
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/rhodie.JPG");
+		background-position: bottom left, bottom right, top left, top center;
+		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+		background-size: 25em, 25em, auto, cover;
+		color: #fff;
+		padding: 5em;
+		text-align: center;
+	}
+
+	#secondcta header {
+		margin-bottom: 2em;
+	}
+
 /* Footer */
 
 	#footer {
@@ -2937,6 +2955,13 @@ ul.package-desc {
 				background-attachment: scroll;
 			}
 
+		/* Secondary CTA */
+
+			#secondcta {
+				padding: 4em;
+				background-attachment: scroll;
+			}
+
 		/* Footer */
 
 			#footer {
@@ -3024,6 +3049,13 @@ ul.package-desc {
 		/* CTA */
 
 			#cta {
+				background-size: 15em, 15em, auto, cover;
+				padding: 3em;
+			}
+
+		/* Secondary CTA */
+
+			#secondcta {
 				background-size: 15em, 15em, auto, cover;
 				padding: 3em;
 			}
@@ -3317,6 +3349,12 @@ ul.package-desc {
 				margin: 0;
 			}
 
+		/* Secondary CTA */
+
+			#secondcta {
+				margin: 0;
+			}
+
 		/* Footer */
 
 			#footer {
@@ -3493,6 +3531,13 @@ ul.package-desc {
 		/* CTA */
 
 			#cta {
+				background-size: 10em, 10em, auto, cover;
+				padding: 3em 1.5em;
+			}
+
+		/* Secondary CTA */
+
+			#secondcta {
 				background-size: 10em, 10em, auto, cover;
 				padding: 3em 1.5em;
 			}
