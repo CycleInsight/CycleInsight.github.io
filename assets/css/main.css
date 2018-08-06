@@ -1782,77 +1782,6 @@ input, select, textarea {
 		padding-top: 3em;
 	}
 
-/* Work With Me Main*/
-
-#wwmmain > header {
-	background-attachment: scroll, scroll, scroll, fixed;
-	background-color: #645862;
-	background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/rhodie.JPG");
-	background-position: top left, top right, top left, bottom center;
-	background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-	background-size: 25em, 25em, auto, cover;
-	color: #fff;
-	padding: 10em 0 8em 0 ;
-	text-align: center;
-}
-
-	#wwmmain > header h2 {
-		font-size: 1.75em;
-		margin: 0 0 0.5em 0;
-	}
-
-	#wwmmain > header p {
-		color: inherit;
-		letter-spacing: 0.225em;
-		text-transform: uppercase;
-		top: 0;
-	}
-
-		#wwmmain > header p a {
-			color: inherit;
-		}
-
-	@media screen and (max-width: 1680px) {
-
-		#wwmmain > header {
-			padding: 8em 0 6em 0 ;
-		}
-
-	}
-
-	@media screen and (max-width: 1280px) {
-
-		#wwmmain > header {
-			padding: 8em 3em 6em 3em ;
-		}
-
-	}
-
-	@media screen and (max-width: 1148px) {
-
-		#wwmmain > header {
-			padding: 8em 0em 6em 0em ;
-		}
-
-	}
-
-	@media screen and (max-width: 736px) {
-
-		#wwmmain > header {
-			padding: 5em 3em 3em 3em ;
-		}
-
-			#wwmmain > header h2 {
-				font-size: 1.25em;
-				margin: 0 0 1em 0;
-			}
-
-	}
-
-body.is-mobile #wwmmain > header {
-	background-attachment: scroll;
-}
-
 /* Form */
 
 	input[type="text"],
@@ -2622,8 +2551,8 @@ ul.package-desc {
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/rhodie.JPG");
-		background-position: bottom left, bottom right, top left, top center;
+		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/rhodie.JPG");
+		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
 		color: #fff;
