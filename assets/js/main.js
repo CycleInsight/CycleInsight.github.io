@@ -2,6 +2,13 @@
 	Cycle Insight
 */
 
+// Google Analytics: Global Site Tag.
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-123490783-1');
+
 (function($) {
 
 	var	$window = $(window),
