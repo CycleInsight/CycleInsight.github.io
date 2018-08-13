@@ -3312,6 +3312,7 @@ ul.package-desc {
 
 			#banner {
 				background-size: 10em, 10em, auto, cover;
+				background-position: top left, top right, top left, bottom right;
 				padding: 6em 0;
 			}
 
